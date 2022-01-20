@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(243, 239, 245);
+}
+
+.app{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+@media screen and (max-width:800px) {
+    .app{
+        flex-direction: column;
+    }
+    
+}
+.app_left{
+    flex:0.9;
+    padding: 0.5rem;
+}
+.app_header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.app_header{
+    color: indianred;
+}
+
+
+.app_stats{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:600px) {
+    .app_stats{
+        flex-direction: column;
+    }
+    .app_pic{
+    display: none;
+}
+}
+
+.app_right h3{
+    margin: 1.5rem 0;
+}

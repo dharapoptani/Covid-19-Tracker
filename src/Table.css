@@ -1,0 +1,33 @@
+.app_table{
+    height: 400px;
+    overflow:scroll;
+    background-color: white;
+    padding: 0.5rem;
+    color: #793d7a;
+    
+     
+}
+table{
+    width: 100%;
+}
+
+
+.app_table tr{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.app_table tr:nth-child(odd){
+  background-color:   rgb(245, 242, 247);
+}
+
+.app_table tr td{
+    padding: 0.5rem;
+}
+
+.app_table::-webkit-scrollbar{
+    display: none;
+}
+
